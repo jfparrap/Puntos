@@ -1,9 +1,10 @@
 
 public class Linea{
-  
-  public void MoverLineaHorizontal(Punto a, Punto b, double z) {
-	  a.MoverPuntoHorizontal(z);
-	  b.MoverPuntoHorizontal(z);
+  private Punto inicio;
+  private Punto fin;
+  public void MoverLineaHorizontal( double z) {
+	  inicio.MoverPuntoHorizontal(z);
+	  fin.MoverPuntoHorizontal(z);
   }
   
   public void MoverLineaVertical(Punto a, Punto b, double z) {
